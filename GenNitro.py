@@ -29,7 +29,7 @@ try:
     GenNitro V1
     ''')
     time.sleep(1)
-    input("Pressione Enter para continuar...")
+    
     while True:  
         processo = Thread(target=GenNitro())
         processo.start()
